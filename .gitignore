@@ -1,0 +1,8 @@
+.env
+.streamlit/secrets.toml
+__pycache__/
+*.pyc
+.venv/
+.playwright-mcp/
+# 테스트용 사진 (본인 얼굴 사진 포함 가능)
+tests/fixtures/

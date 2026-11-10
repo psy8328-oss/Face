@@ -1,0 +1,25 @@
+[server]
+# PRD 한도는 10MB이며 app.py가 한국어 메시지로 검사한다.
+# Streamlit 자체 한도(영어 메시지)는 그보다 넉넉하게 둬서 10~20MB 파일도 한국어 안내를 받게 한다.
+maxUploadSize = 20
+
+# 공통: 제목은 명조체로 동양풍 느낌을 낸다 (Google Fonts, Streamlit Cloud에서도 로드됨)
+[theme]
+headingFont = "'Nanum Myeongjo':https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700;800&display=swap, serif"
+baseRadius = "medium"
+
+# 라이트 모드: 한지 느낌의 따뜻한 배경 + 먹색 글자 + 짙은 금색 포인트
+[theme.light]
+primaryColor = "#9A6B12"
+backgroundColor = "#FBF7EF"
+secondaryBackgroundColor = "#F1E8D6"
+textColor = "#2B2622"
+borderColor = "#E2D4B8"
+
+# 다크 모드: 깊은 남색 배경 + 상아색 글자 + 금색 포인트
+[theme.dark]
+primaryColor = "#B8862B"
+backgroundColor = "#11152A"
+secondaryBackgroundColor = "#1B2140"
+textColor = "#F2EBDD"
+borderColor = "#2E3660"
